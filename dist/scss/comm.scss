@@ -63,7 +63,8 @@
     }
 
     .gradient-purple-blue {
-        background-image: linear-gradient(30deg, #fffce1, #b9dedb);
+        // background-image: linear-gradient(30deg, #fffce1, #ddb9de);
+        background-image: linear-gradient(30deg, #fffef1, #fffce1);
     }
 
     .under-container {
@@ -359,6 +360,7 @@
 }
 
 .pfs {
+    height: 100vh;
     background: #f4f4f4;
 }
 
@@ -366,8 +368,8 @@
     display: flex;
     position: relative;
     width: 1440px;
-    height: calc(100% - 85px);
-    margin: 85px auto 0;
+    height: 100vh;
+    margin: 0 auto;
     overflow: hidden;
     justify-content: space-between;
     align-items: center;

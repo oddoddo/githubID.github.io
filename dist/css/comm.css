@@ -321,7 +321,7 @@ legend {
   height: 100vh;
 }
 .sec1 .gradient-purple-blue {
-  background-image: linear-gradient(30deg, #fffce1, #b9dedb);
+  background-image: linear-gradient(30deg, #fffef1, #fffce1);
 }
 .sec1 .under-container {
   width: 100vw;
@@ -558,6 +558,7 @@ legend {
 }
 
 .pfs {
+  height: 100vh;
   background: #f4f4f4;
 }
 
@@ -565,8 +566,8 @@ legend {
   display: flex;
   position: relative;
   width: 1440px;
-  height: calc(100% - 85px);
-  margin: 85px auto 0;
+  height: 100vh;
+  margin: 0 auto;
   overflow: hidden;
   justify-content: space-between;
   align-items: center;
