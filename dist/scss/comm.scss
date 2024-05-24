@@ -85,6 +85,9 @@
         font-size: 50px;
         color: white;
     }
+    .text {
+        display: flex;
+    }
 
     .line {
         display: flex;
@@ -390,20 +393,16 @@
                 background-position: top;
                 transition: all 3s;
             }
-            .kt4 {
-                background: url(../../images/main/KT4-p.jpg) no-repeat 0 0;
-                background-size: cover;
-            }
             .monami {
-                background: url('https://oddodd.io/odada/images/boaspace.jpg') no-repeat 0 0;
-                background-size: cover;
-            }
-            .saint {
-                background: url(../../images/main/saint-pc.jpg) no-repeat 0 0;
+                background: url('../../images/portfolio/portfolio1.jpg') no-repeat 0 0;
                 background-size: cover;
             }
         }
     }
+}
+
+.sec5 {
+    background: #f4f4f4 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50% / contain;
 }
 
 .port-texts {

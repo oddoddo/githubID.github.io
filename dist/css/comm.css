@@ -341,6 +341,9 @@ legend {
   font-size: 50px;
   color: white;
 }
+.sec1 .text {
+  display: flex;
+}
 .sec1 .line {
   display: flex;
   position: relative;
@@ -590,17 +593,13 @@ legend {
   background-position: top;
   transition: all 3s;
 }
-.portfolio_wrap .port-img .imges-wrap .kt4 {
-  background: url(../../images/main/KT4-p.jpg) no-repeat 0 0;
-  background-size: cover;
-}
 .portfolio_wrap .port-img .imges-wrap .monami {
-  background: url("https://oddodd.io/odada/images/boaspace.jpg") no-repeat 0 0;
+  background: url("../../images/portfolio/portfolio1.jpg") no-repeat 0 0;
   background-size: cover;
 }
-.portfolio_wrap .port-img .imges-wrap .saint {
-  background: url(../../images/main/saint-pc.jpg) no-repeat 0 0;
-  background-size: cover;
+
+.sec5 {
+  background: #f4f4f4 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50%/contain;
 }
 
 .port-texts {
