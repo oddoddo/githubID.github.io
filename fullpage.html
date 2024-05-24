@@ -23,6 +23,7 @@
             href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
         />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" />
         <link
             rel="stylesheet"
             as="style"
@@ -45,6 +46,7 @@
         />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="./dist/css/comm.css" />
+        <script src="./dist/js/fullpage.min.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script defer src="https://unpkg.com/custom-cursor@latest/dist/cursor.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -61,6 +63,7 @@
             <div class="menu" id="menu">
                 <li class="depth1"><a href="#intro">INTRO</a></li>
                 <li class="depth2"><a href="#aboutme">ABOUT ME</a></li>
+                <!-- <li class="depth3"></li> -->
                 <li class="depth4"><a href="#monami">PORTFOLIO</a></li>
                 <li class="depth5"><a href="#moreinfo">MORE INFO</a></li>
             </div>
@@ -107,17 +110,6 @@
                     loop: true,
                     autoplay: true,
                     path: './dist/js/data.json', // JSON 파일의 경로
-                })
-
-                gsap.to('#lottie-animation', {
-                    scrollTrigger: {
-                        trigger: '.sec1',
-                        start: '50% center',
-                        end: 'bottom 30%',
-                        scrub: 1,
-                        markers: true,
-                    },
-                    scale: 6,
                 })
             </script>
             <div class="section sec2" data-tooltip="ABOUT ME" data-anchor="aboutme">
